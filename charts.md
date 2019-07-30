@@ -1,20 +1,17 @@
-#' ---
-#' title: ""
-#' author: ""
-#' date: ""
-#' output:
-#'   html_document:
-#'     keep_md: true
-#'     theme: simplex
-#'     highlight: monochrome
-#' ---
-#+ init, include=FALSE
-knitr::opts_chunk$set(
-  message = FALSE, warning = FALSE, dev="png", collapse = TRUE,
-  fig.retina = 2, fig.width = 10, fig.height = 6
-  )
+---
+title: ""
+author: ""
+date: ""
+output:
+  html_document:
+    keep_md: true
+    theme: simplex
+    highlight: monochrome
+---
 
-#+ libs
+
+
+```r
 library(glue)
 library(pdftools)
 library(stringi)
@@ -22,11 +19,13 @@ library(hrbrthemes)
 library(ggchicklet) # install.packages("ggchicklet", repos = "https://cinc.rud.is")
 library(statebins) # install.packages("statebins", repos = "https://cinc.rud.is")
 library(tidyverse)
+```
 
-#+ data
+```r
 rdf <- readRDS(here::here("data/muni-ransomware.rds"))
+```
 
-#+ ransom-events
+```r
 count(rdf, year, month) %>% 
   mutate(
     date = as.Date(glue("{month} 01 {year}"), "%b %d %Y")
@@ -56,8 +55,11 @@ count(rdf, year, month) %>%
     caption = "Source: Recorded Future\n'Early Findings: Review of State and Local Government Ransomware Attacks'\n<https://go.recordedfuture.com/hubfs/reports/cta-2019-0510.pdf>"
   ) +
   theme_ipsum_es(grid="Y")
+```
 
-#+ ransom-events-by-state-total
+<img src="charts_files/figure-html/ransom-events-1.png" width="960" />
+
+```r
 count(rdf, state) %>% 
   complete(state = statebins:::b_state_coords$abbrev) %>% 
   ggplot(aes(state = state, fill = n)) +
@@ -79,8 +81,11 @@ count(rdf, state) %>%
   theme_ipsum_es(grid="") +
   theme(legend.position = "bottom") +
   worldtilegrid::theme_enhance_wtg()
+```
 
-#+ ransom-events-state-facet, fig.width=1700/72, fig.height=800/72
+<img src="charts_files/figure-html/ransom-events-by-state-total-1.png" width="960" />
+
+```r
 count(rdf, year, state) %>% 
   complete(
     state = statebins:::b_state_coords$abbrev,
@@ -106,8 +111,11 @@ count(rdf, year, state) %>%
   theme_ipsum_es(grid="") +
   theme(legend.position = "bottom") +
   worldtilegrid::theme_enhance_wtg()
+```
 
-#+ ransom-events-year
+<img src="charts_files/figure-html/ransom-events-state-facet-1.png" width="2266.66666666667" />
+
+```r
 mutate(rdf, paid = case_when(
   paid == TRUE ~ "Yes",
   paid == FALSE ~ "No",
@@ -138,8 +146,11 @@ mutate(rdf, paid = case_when(
   theme_ipsum_es(grid="Y") +
   theme(legend.position = c(0.8, 1.125)) +
   theme(legend.direction = "horizontal")
+```
 
-#+ ransom-events-year-paid
+<img src="charts_files/figure-html/ransom-events-year-1.png" width="960" />
+
+```r
 filter(rdf, paid) %>% 
   count(year, wt = demand) %>% 
   ggplot(aes(year, n)) +
@@ -155,4 +166,13 @@ filter(rdf, paid) %>%
     caption = "Source: Recorded Future\n'Early Findings: Review of State and Local Government Ransomware Attacks'\n<https://go.recordedfuture.com/hubfs/reports/cta-2019-0510.pdf>"
   ) +
   theme_ipsum_es(grid="Y")
+```
 
+<img src="charts_files/figure-html/ransom-events-year-paid-1.png" width="960" />
+
+
+---
+title: "charts.R"
+author: "bob"
+date: "2019-07-30"
+---
