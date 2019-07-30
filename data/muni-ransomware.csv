@@ -1,0 +1,170 @@
+month,year,city,state,family,demand,attribution,paid,date
+Nov,2013,Swansea PD,MA,CryptoLocker,750,—,TRUE,2013-11-01
+Dec,2013,Greenland,NH,CryptoLocker,300,—,FALSE,2013-12-01
+Jun,2014,Durham PD,NH,CryptoWall,NA,—,FALSE,2014-06-01
+Jun,2014,Collinsville,AL,Unknown,NA,—,FALSE,2014-06-01
+Nov,2014,Dickson Sher,TN,CryptoWall,572,—,TRUE,2014-11-01
+Feb,2015,Midlothian P,IL,Unknown,500,—,TRUE,2015-02-01
+Apr,2015,Tewksbury,MA,CryptoLocker,500,—,TRUE,2015-04-01
+Apr,2015,Lincoln Coun,ME,Megacode,300,—,TRUE,2015-04-01
+Jan,2016,Medfield,MA,Unknown,300,—,TRUE,2016-01-01
+Feb,2016,Park County,WY,TeslaCrypt,NA,—,FALSE,2016-02-01
+Feb,2016,Arizona Supe,AZ,Unknown,NA,—,FALSE,2016-02-01
+Feb,2016,Los Angeles,CA,Unknown,NA,—,FALSE,2016-02-01
+Feb,2016,Oxford Schoo,MS,Unknown,NA,—,FALSE,2016-02-01
+Feb,2016,Durham,NC,Unknown,NA,—,FALSE,2016-02-01
+Feb,2016,Horry County,SC,Unknown,8000,—,FALSE,2016-02-01
+Feb,2016,Melrose PD,MA,Unknown,489,—,TRUE,2016-02-01
+Mar,2016,Kankakee Cou,IL,CryptoWall,NA,—,FALSE,2016-03-01
+Mar,2016,Manlius,NY,LeChiffre,400,Russia,FALSE,2016-03-01
+Mar,2016,Cloquet Scho,MN,Unknown,6000,—,FALSE,2016-03-01
+Mar,2016,Clark County,NV,Unknown,NA,—,NA,2016-03-01
+Apr,2016,Plainfield,NJ,Unknown,650,—,FALSE,2016-04-01
+Apr,2016,Lansing Boar,MI,Unknown,25000,—,TRUE,2016-04-01
+May,2016,Pinal County,AZ,CryptoLocker,NA,—,FALSE,2016-05-01
+May,2016,Grant County,OR,Scarab,NA,—,FALSE,2016-05-01
+May,2016,Rhinebeck Sc,NY,Unknown,500,—,FALSE,2016-05-01
+Jun,2016,Henry County,TN,Scarab,NA,—,FALSE,2016-06-01
+Jun,2016,Palm Beach 9,FL,Unknown,NA,—,FALSE,2016-06-01
+Jun,2016,Janesville,WI,Unknown,NA,—,NA,2016-06-01
+Jun,2016,Columbiana C,OH,Unknown,2883,—,TRUE,2016-06-01
+Jul,2016,Woodbury Cou,IA,Unknown,NA,—,FALSE,2016-07-01
+Jul,2016,Wadena,MN,Unknown,NA,—,FALSE,2016-07-01
+Aug,2016,Sarasota,FL,Unknown,33000000,—,FALSE,2016-08-01
+Aug,2016,State Police,RI,Unknown,NA,—,FALSE,2016-08-01
+Aug,2016,Barnstable P,MA,Unknown,NA,—,FALSE,2016-08-01
+Sep,2016,Yuba City,CA,Unknown,NA,—,FALSE,2016-09-01
+Sep,2016,Palm Beach 9,FL,Unknown,NA,—,FALSE,2016-09-01
+Sep,2016,"Honolulu, FD",HI,Unknown,NA,—,FALSE,2016-09-01
+Sep,2016,Crow Wing Co,MN,Unknown,NA,—,FALSE,2016-09-01
+Sep,2016,Dep of Miner,ND,Unknown,350,—,FALSE,2016-09-01
+Sep,2016,Springfield,TN,Unknown,1000,—,FALSE,2016-09-01
+Sep,2016,Palm Hill PD,TX,Unknown,250,—,NA,2016-09-01
+Oct,2016,Henry County,OH,Unknown,NA,—,FALSE,2016-10-01
+Oct,2016,Mount Holly,PA,Unknown,500,—,FALSE,2016-10-01
+Nov,2016,San Francisc,CA,HDDCryptor,73000,—,FALSE,2016-11-01
+Nov,2016,Howard Count,IN,Unknown,NA,—,FALSE,2016-11-01
+Nov,2016,St Mary's Co,MD,Unknown,NA,—,FALSE,2016-11-01
+Nov,2016,Bigfork Scho,MT,Unknown,NA,—,FALSE,2016-11-01
+Nov,2016,Madison Coun,IN,Unknown,21000,—,TRUE,2016-11-01
+Dec,2016,Alpena Schoo,MI,Unknown,NA,—,FALSE,2016-12-01
+Dec,2016,Mt Pleasant,SC,Unknown,NA,—,FALSE,2016-12-01
+Dec,2016,Cockrell Hil,TX,Unknown,4000,—,FALSE,2016-12-01
+Dec,2016,Allegheny Co,PA,Nymain,1400,—,TRUE,2016-12-01
+Dec,2016,Carroll Coun,AR,Unknown,2400,—,TRUE,2016-12-01
+Dec,2016,Los Angeles,CA,Unknown,28000,—,TRUE,2016-12-01
+Dec,2016,Bighton PD,MA,Unknown,4600,—,TRUE,2016-12-01
+Jan,2017,Washington,DC,Cerber,NA,—,FALSE,2017-01-01
+Jan,2017,Marion Count,FL,Unknown,NA,—,FALSE,2017-01-01
+Jan,2017,St Louis Pub,MO,Unknown,35000,—,FALSE,2017-01-01
+Jan,2017,Kanawha Coun,WV,Unknown,NA,—,FALSE,2017-01-01
+Jan,2017,Warren Count,MO,CryptoMix,NA,—,NA,2017-01-01
+Feb,2017,Bingham Coun,ID,Unknown,30000,—,FALSE,2017-02-01
+Feb,2017,Roxana Polic,IL,Unknown,NA,—,FALSE,2017-02-01
+Feb,2017,Office of Ma,OK,Unknown,NA,—,FALSE,2017-02-01
+Feb,2017,Licking Coun,OH,Unknown,NA,—,TRUE,2017-02-01
+Mar,2017,PA State Sen,PA,Unknown,NA,—,FALSE,2017-03-01
+Mar,2017,Wood River P,IL,Unknown,NA,—,FALSE,2017-03-01
+Apr,2017,Troup County,GA,Unknown,39600,astern Europe,FALSE,2017-04-01
+Apr,2017,Perkin High,IL,Unknown,37000,—,FALSE,2017-04-01
+Apr,2017,Forsyth Publ,MT,Unknown,NA,—,FALSE,2017-04-01
+Apr,2017,Newark,NJ,SamSam,30000,Iran,TRUE,2017-04-01
+May,2017,Cook County,IL,WannaCry,NA,North Korea,FALSE,2017-05-01
+May,2017,Murfreesboro,TN,WannaCry,NA,North Korea,FALSE,2017-05-01
+Jun,2017,Rensselaer C,NY,WannaCry,NA,North Korea,FALSE,2017-06-01
+Jul,2017,Marion Count,IN,Unknown,1000,—,FALSE,2017-07-01
+Jul,2017,Cape May Cou,NJ,Unknown,NA,—,NA,2017-07-01
+Jul,2017,Brownsburg P,IN,Unknown,1000,—,TRUE,2017-07-01
+Aug,2017,Iberia Paris,LA,Unknown,NA,—,FALSE,2017-08-01
+Aug,2017,Washington,MO,Unknown,NA,—,FALSE,2017-08-01
+Aug,2017,Becker Count,MN,Unknown,NA,—,NA,2017-08-01
+Aug,2017,Dorchester S,SC,Unknown,2900,—,TRUE,2017-08-01
+Sep,2017,St Johnsbury,VT,Global 3,250,—,FALSE,2017-09-01
+Sep,2017,Butler Count,KS,Unknown,NA,—,NA,2017-09-01
+Sep,2017,Indianhead L,WI,Unknown,NA,—,NA,2017-09-01
+Oct,2017,Englewood,CO,Unknown,NA,—,FALSE,2017-10-01
+Oct,2017,Topsham,ME,Unknown,NA,—,FALSE,2017-10-01
+Oct,2017,Texas Dept o,TX,Unknown,NA,—,NA,2017-10-01
+Oct,2017,Yarrow Point,WA,Unknown,9170,—,TRUE,2017-10-01
+Nov,2017,Sacramento T,CA,Unknown,8000,—,FALSE,2017-11-01
+Nov,2017,Spring Hill,TN,Unknown,250000,—,FALSE,2017-11-01
+Dec,2017,Mecklenburg,NC,LockCrypt,23000,—,FALSE,2017-12-01
+Dec,2017,Dept of Agri,GA,Unknown,NA,—,FALSE,2017-12-01
+Dec,2017,Jerome Schoo,ID,Unknown,65000,—,FALSE,2017-12-01
+Dec,2017,Mad River Fi,OH,Unknown,11400,—,FALSE,2017-12-01
+Dec,2017,Nashotah,WI,Unknown,2000,—,TRUE,2017-12-01
+Jan,2018,Farmington,NM,SamSam,35000,—,FALSE,2018-01-01
+Jan,2018,Spartanburg,SC,Unknown,35000,—,FALSE,2018-01-01
+Jan,2018,Chester Coun,SC,Unknown,NA,—,FALSE,2018-01-01
+Jan,2018,Belle Fourch,SD,Unknown,NA,—,FALSE,2018-01-01
+Jan,2018,Maury County,TN,Unknown,NA,—,FALSE,2018-01-01
+Feb,2018,Colorado Dep,CO,SamSam,NA,Iran,FALSE,2018-02-01
+Feb,2018,Davidson Cou,NC,SamSam,23000,Iran,FALSE,2018-02-01
+Feb,2018,Johnson Coun,AR,Unknown,NA,—,FALSE,2018-02-01
+Feb,2018,Hinesville,GA,Unknown,NA,—,FALSE,2018-02-01
+Feb,2018,Connecticut,CT,WannaCry,48000,North Korea,FALSE,2018-02-01
+Feb,2018,Savannah (an,GA,Unknown,NA,—,TRUE,2018-02-01
+Mar,2018,Plymouth & P,CT,GandCrab,NA,—,FALSE,2018-03-01
+Mar,2018,Colorado Dep,CO,SamSam,NA,Iran,FALSE,2018-03-01
+Mar,2018,Atlanta (and,GA,SamSam,55000,Iran,FALSE,2018-03-01
+Mar,2018,Portland,CT,Unknown,2000,—,FALSE,2018-03-01
+Mar,2018,Portland (II,CT,Unknown,2000,—,FALSE,2018-03-01
+Mar,2018,Connecticut,CT,Unknown,NA,—,FALSE,2018-03-01
+Mar,2018,Baltimore 91,MD,Unknown,NA,—,FALSE,2018-03-01
+Mar,2018,Mississippi,MS,SamSam,NA,Iran,NA,2018-03-01
+Mar,2018,"Leeds (City,",AL,Unknown,8000,—,TRUE,2018-03-01
+Apr,2018,Dawson Count,GA,Unknown,NA,—,FALSE,2018-04-01
+Apr,2018,Ashland Comm,ME,Unknown,400,—,FALSE,2018-04-01
+Apr,2018,Rockport,ME,Unknown,1000,—,FALSE,2018-04-01
+Apr,2018,Riverside FD,OH,Unknown,NA,—,FALSE,2018-04-01
+Apr,2018,Richmond,VA,Unknown,NA,—,FALSE,2018-04-01
+Apr,2018,Leominster S,MA,Unknown,10000,—,TRUE,2018-04-01
+May,2018,Pasquotank,NC,Scarab,2500,—,FALSE,2018-05-01
+May,2018,Winder,GA,Unknown,320000,—,FALSE,2018-05-01
+May,2018,Riverside FD,OH,Unknown,NA,—,FALSE,2018-05-01
+May,2018,Roseburg Pub,OR,Unknown,NA,—,FALSE,2018-05-01
+Jun,2018,Jefferson Vi,OH,Unknown,4900,—,FALSE,2018-06-01
+Jun,2018,State Agenci,RI,Unknown,NA,—,FALSE,2018-06-01
+Jun,2018,Middletown S,CT,Unknown,NA,—,NA,2018-06-01
+Jul,2018,Mat-Su,AK,Bitpaymer,400000,—,FALSE,2018-07-01
+Jul,2018,Derby Police,CT,Unknown,NA,—,FALSE,2018-07-01
+Jul,2018,Valdez,AK,Hermes,26000,—,TRUE,2018-07-01
+Jul,2018,Westmoreland,PA,Unknown,6500,—,TRUE,2018-07-01
+Aug,2018,Coweta Count,GA,Unknown,NA,—,FALSE,2018-08-01
+Aug,2018,Cloquet Scho,MN,Unknown,NA,—,FALSE,2018-08-01
+Sep,2018,Monroe Count,FL,GandCrab,NA,—,FALSE,2018-09-01
+Sep,2018,Port of San,CA,SamSam,NA,Iran,FALSE,2018-09-01
+Sep,2018,Marblehead,MA,Unknown,NA,—,FALSE,2018-09-01
+Sep,2018,Beatrice (an,NE,Unknown,NA,—,NA,2018-09-01
+Oct,2018,Onslow Count,NC,Ryuk,NA,—,FALSE,2018-10-01
+Oct,2018,Muscatine (C,IA,Unknown,NA,—,FALSE,2018-10-01
+Oct,2018,Madison Coun,ID,Unknown,NA,—,FALSE,2018-10-01
+Oct,2018,Moultrie Cou,IL,Unknown,NA,—,NA,2018-10-01
+Oct,2018,Crawford Cou,IL,Unknown,NA,—,NA,2018-10-01
+Oct,2018,Indiana Nati,IN,Unknown,NA,—,NA,2018-10-01
+Oct,2018,West Haven,CT,Unknown,2000,—,TRUE,2018-10-01
+Nov,2018,Rockaway Tow,NJ,Unknown,NA,—,NA,2018-11-01
+Nov,2018,Johannesburg,MI,Unknown,NA,—,TRUE,2018-11-01
+Dec,2018,North Bend (,OR,PewCrypt,50000,Romania,FALSE,2018-12-01
+Dec,2018,Jupiter,FL,Unknown,NA,—,FALSE,2018-12-01
+Jan,2019,Lamar County,TX,Dharma,NA,—,FALSE,2019-01-01
+Jan,2019,Salisbury PD,MD,Unknown,NA,—,FALSE,2019-01-01
+Jan,2019,Akron,OH,Unknown,NA,—,FALSE,2019-01-01
+Jan,2019,Sammamish,WA,Unknown,NA,—,FALSE,2019-01-01
+Jan,2019,Bridgeport S,CT,Unknown,NA,—,NA,2019-01-01
+Jan,2019,Del Rio,TX,Unknown,NA,—,NA,2019-01-01
+Feb,2019,Colchester,CT,Unknown,NA,—,FALSE,2019-02-01
+Feb,2019,Mt Zion Scho,IL,Unknown,NA,—,FALSE,2019-02-01
+Feb,2019,Taos Municip,NM,Unknown,5000,—,FALSE,2019-02-01
+Mar,2019,Committee fo,MA,Ryuk,NA,—,FALSE,2019-03-01
+Mar,2019,Park Rapids,MN,Unknown,NA,—,FALSE,2019-03-01
+Mar,2019,Orange Count,NC,Unknown,NA,—,FALSE,2019-03-01
+Mar,2019,Fisher Count,TX,Unknown,NA,—,FALSE,2019-03-01
+Mar,2019,Albany,NY,Unknown,NA,—,NA,2019-03-01
+Mar,2019,Jackson Coun,GA,Ryuk,400000,—,TRUE,2019-03-01
+Apr,2019,Genessee Cou,MI,Unknown,NA,—,FALSE,2019-04-01
+Apr,2019,Imperial Cou,CA,Ryuk,NA,—,FALSE,2019-04-01
+Apr,2019,Stuart,FL,Ryuk,NA,—,FALSE,2019-04-01
+Apr,2019,Greenville,NC,RobinHood,NA,—,NA,2019-04-01
+Apr,2019,Augusta,ME,Unknown,NA,—,NA,2019-04-01
+Apr,2019,Garfield Cou,UT,Unknown,NA,—,TRUE,2019-04-01
